@@ -1,10 +1,15 @@
-# Rate-My-Tutor
-
-Dan Quiroga, Emma Akbari, Badeer Majeed, Ziyi Gong, and David Simpkins
 Intro to Technical Writing
 Dr. Stephen Quigley
 October 12, 2020
-Rate My Tutor Pitch
+
+# Rate-My-Tutor
+
+Group member:
+* Dan Quiroga
+* Emma Akbari
+* Bader Majeed
+* Ziyi Gong
+* David Simpkins
 
 ## Description
 Tutoring at the University of Pittsburgh is hard to find for students due to how tutoring services are fragmented by schools/majors/departments. Additionally, the quality of tutors is unknown to students looking for academic help. We propose a website, similar to RateMyProfessor.com, that allows students to search for tutors in their respective field of study with a rating functionality. This functionality will show a tutor’s knowledge, helpfulness, and overall quality based on student feedback.
