@@ -6,6 +6,9 @@ Dr. Stephen Quigley
 October 12, 2020
 Rate My Tutor Pitch
 
+## Description
+Tutoring at the University of Pittsburgh is hard to find for students due to how tutoring services are fragmented by schools/majors/departments. Additionally, the quality of tutors is unknown to students looking for academic help. We propose a website, similar to RateMyProfessor.com, that allows students to search for tutors in their respective field of study with a rating functionality. This functionality will show a tutor’s knowledge, helpfulness, and overall quality based on student feedback.
+
 ## Thesis
 College can be a stressful time when it comes to working towards your goals or grades you may want. Additionally, getting help for classes or different subjects additionally can be a hassle. Generalized tutoring by department is helpful but sometimes its not enough or can be inconvenient. I propose a database or application to be developed for tutors that will track tutor success as well as provide information to students similar to rate my professor to allow them to find the right personal tutor for them and their subject of study.
 
