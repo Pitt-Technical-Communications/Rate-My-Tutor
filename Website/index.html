@@ -9,15 +9,15 @@
 	<!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet"> 
+    <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet"> 
+    <link href="css/styles.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico"> 
-</head> 
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+</head>
 
 <body id="home">
 
@@ -32,7 +32,7 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-				
+
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="scroll active"><a href="#home">Home</a></li>
@@ -40,7 +40,8 @@
                         <li class="scroll"><a href="#about">About</a></li>
                         <li class="scroll"><a href="#tutors">Tutors</a></li>
                         <li class="scroll"><a href="#pricing">Pricing</a></li>
-                        <li class="scroll"><a href="#contact-us">Contact</a></li>                        
+                        <li class="scroll"><a href="#adding">Add a Tutor Profile</a></li>
+                        <li class="scroll"><a href="#rating">Rate a Tutor</a></li>
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -66,10 +67,10 @@
     <section id="features">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Awesome Features</h2> 
+                <h2 class="section-title text-center wow fadeInDown">Awesome Features</h2>
 				<p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
             </div>
-            <div class="row">               
+            <div class="row">
                 <div class="col-md-6">
                     <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
@@ -131,7 +132,7 @@
 
                 <div class="col-sm-6 wow fadeInRight">
                     <h3 class="column-title">Our Mission</h3>
-                    <p>LCollege can be a stressful time when it comes to working towards your goals or grades you may want. Additionally, getting help for classes or different subjects additionally can be a hassle. Generalized tutoring by department is helpful but sometimes its not enough or can be inconvenient. I propose a database or application to be developed for tutors that will track tutor success as well as provide information to students similar to rate my professor to allow them to find the right personal tutor for them and their subject of study.
+                    <p>College can be a stressful time when it comes to working towards your goals or grades you may want. Additionally, getting help for classes or different subjects additionally can be a hassle. Generalized tutoring by department is helpful but sometimes its not enough or can be inconvenient. I propose a database or application to be developed for tutors that will track tutor success as well as provide information to students similar to rate my professor to allow them to find the right personal tutor for them and their subject of study.
                     </p>
 
                     <p>This is important because getting the help one needs in their education is crucial to academic success. Any added efficiency to this effort is a must for students in today's colleges.</p>
@@ -152,8 +153,8 @@
                 <h2 class="section-title text-center wow fadeInDown">Our Tutors</h2>
                 <p class="text-center wow fadeInDown">Here are some of our selected tutors that you can choose from <br> </p>
             </div>
-			
-			 	
+
+
             <div class="row text-center">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
@@ -452,79 +453,66 @@
 				</div>
 			</div>
 		</section>
-    <section id="contact-us">
+   
+
+    <section id="rating">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Contact Us</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                <h2 class="section-title text-center wow fadeInDown">Rate A Tutor</h2>
             </div>
-        </div>
-    </section><!--/#contact-us-->
 
+            <div class="contact-form">
+                <form id="main-contact-form" name="contact-form" method="post" action="#">
+                    <select name="Tutor" id="tutor" required>
+                        <option value="">Please choose a tutor</option>
+                        <optgroup label="SCI">
+                            <option value="Tim">Tim</option>
+                            <option value="Sarah">Sarah</option>
+                        </optgroup>
+                        <optgroup label="A&S">
+                            <option value="Peter">Peter</option>
+                            <option value="Jane">Jane</option>
+                        </optgroup>
+                    </select>
 
-    <section id="contact">
-        
-        <div class="container">
-            <div class="container contact-info">
-                <div class="row">
-				  <div class="col-sm-4 col-md-4">
-                        <div class="contact-form">
-                            <h3>Contact Info</h3>
-
-                            <address>
-                              <strong>Amazing Company, Inc.</strong><br>
-                              12345 NewYork, Street 125<br>
-                              United States 94107<br>
-                              <abbr title="Phone">P:</abbr> (123) 456-7890
-                            </address>
-					</div></div>
-                    <div class="col-sm-8 col-md-8">
-                        <div class="contact-form">
-                       
-                            <form id="main-contact-form" name="contact-form" method="post" action="#">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Name" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="email" class="form-control" placeholder="Email" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="subject" class="form-control" placeholder="Subject" required>
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" class="form-control" rows="8" placeholder="Message" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Send Message</button>
-                            </form>
-                        </div>
+                    <div class="text-left">
+                        <ul class="rating-filter">
+                            <li><a href="#">Recommend</a></li>
+                            <li><a class='active' href="#">Neutral</a></li>
+                            <li><a href="#">Not Recommend</a></li>
+                        </ul><!--/#rating-filter-->
                     </div>
-                </div>
+
+                    <div class="form-group">
+                        <input type="text" name="subject" class="form-control" placeholder="Tags" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" class="form-control" rows="8" placeholder="Comments" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name (Optional)">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="email" class="form-control" placeholder="Your Email (Optional)">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-        </div>   
-   </section><!--/#bottom-->
+        </div><!--/.container-->
+    </section><!--/#rating-->
 
     <footer id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    &copy; 2015 Company Name. Template by <a target="_blank" href="http://webthemez.com/" title="Free Bootstrap Themes and HTML Templates">WebThemez.com</a>
-                </div>
-                <div class="col-sm-6">
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                    </ul>
+                    &copy; 2020 Rate My Tutor. Template by <a target="_blank" href="http://webthemez.com/" title="Free Bootstrap Themes and HTML Templates">WebThemez.com</a>
                 </div>
             </div>
         </div>
     </footer><!--/#footer-->
 
     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/mousescroll.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
