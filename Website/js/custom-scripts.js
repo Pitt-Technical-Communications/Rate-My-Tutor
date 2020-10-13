@@ -4,7 +4,7 @@ Author URL: http://webthemez.com
 */
 jQuery(function($) {
     'use strict';
-     
+
     $(window).scroll(function(event) {
         Scroll();
     });
@@ -15,7 +15,7 @@ jQuery(function($) {
         }, 1000);
         return false;
     });
- 
+
     function Scroll() {
         var contentTop = [];
         var contentBottom = [];
@@ -42,26 +42,26 @@ jQuery(function($) {
         return false;
     });
 
-  
+
     new WOW().init();
-     
+
     smoothScroll.init();
 
-    
+
     $(window).load(function() {
         'use strict';
-        var $portfolio_selectors = $('.portfolio-filter >li>a');
-        var $portfolio = $('.portfolio-items');
-        $portfolio.isotope({
-            itemSelector: '.portfolio-item',
+        var $rating_selectors = $('.rating-filter >li>a');
+        var $rating = $('.rating-items');
+        $rating.isotope({
+            itemSelector: '.rating-item',
             layoutMode: 'fitRows'
         });
 
-        $portfolio_selectors.on('click', function() {
-            $portfolio_selectors.removeClass('active');
+        $rating_selectors.on('click', function() {
+            $rating_selectors.removeClass('active');
             $(this).addClass('active');
             var selector = $(this).attr('data-filter');
-            $portfolio.isotope({
+            $rating.isotope({
                 filter: selector
             });
             return false;
@@ -69,7 +69,7 @@ jQuery(function($) {
     });
 
     $(document).ready(function() {
-   
+
         $.fn.animateNumbers = function(stop, commas, duration, ease) {
             return this.each(function() {
                 var $this = $(this);
@@ -109,10 +109,10 @@ jQuery(function($) {
         });
     });
 
- 
+
     $("a[rel^='prettyPhoto']").prettyPhoto({
         social_tools: false
     });
- 
+
 
 });
