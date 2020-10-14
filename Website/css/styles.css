@@ -319,7 +319,7 @@ color:#CC5632;
 }
 #rating {
   padding: 100px 0;
-  background: #FFFFFF;
+  background-color: white;
 }
 #rating .rating-filter {
   list-style: none;
