@@ -319,6 +319,12 @@ color:#CC5632;
 }
 #rating {
   padding: 100px 0;
+	 background-color: white;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
 }
 #rating .rating-filter {
   list-style: none;
