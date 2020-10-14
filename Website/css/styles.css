@@ -240,7 +240,7 @@ color: #FFFFFF;
   left: 0;
   width: 100%;
   height: 100%;
-  /*color: #000;*/
+  color: #000;
 }
 #hero-banner h2 {
   margin-top: 180px;
@@ -319,9 +319,6 @@ color:#CC5632;
 }
 #rating {
   padding: 100px 0;
-}
-#rating .rating-container {
-	background-color: #FFFFFF;
 }
 #rating .rating-filter {
   list-style: none;
@@ -461,7 +458,7 @@ transition: all .2s ease-in-out;
 margin-bottom: 15px;
 }
 #testimonial {
- /*background: #000000;*/
+ background: #000000;
   background-size: cover;
   padding: 100px 0;
   color: #fff;
@@ -671,7 +668,7 @@ margin: 0 8px;
   display: inline-block;
   width: 100%;
   height: 116px;
-  /*color: #000;*/
+  color: #000;
   background: #E4E4E4;
 }
 #pricing ul.pricing li.plan-header .price-duration > span {
