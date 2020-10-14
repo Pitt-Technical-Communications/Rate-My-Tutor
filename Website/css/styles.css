@@ -320,6 +320,9 @@ color:#CC5632;
 #rating {
   padding: 100px 0;
 }
+#rating .rating-container {
+	background-color: #FFFFFF;
+}
 #rating .rating-filter {
   list-style: none;
   padding: 0;
