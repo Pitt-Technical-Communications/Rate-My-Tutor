@@ -318,7 +318,10 @@ color:#CC5632;
 .media.service-box:hover .pull-left > i {
 }
 #rating {
+  background: #000000;
+  background-size: cover;
   padding: 100px 0;
+  color: #000;
 }
 #rating .rating-filter {
   list-style: none;
