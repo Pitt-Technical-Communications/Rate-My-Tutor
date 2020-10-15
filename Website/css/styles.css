@@ -789,23 +789,29 @@ text-align: center;
 list-style: none;
 padding: 0;
 margin: 0 0 12px;
+background-color: #FFF;
 }
 #rating .rating-filter > li a {
 display: block;
 padding: 7px 15px;
 margin: 5px 2px;
+background-color: #FFF;
 }
-	#rating .rating-item {
-	width: 48.9%;
-	padding: 8px;
-	}
-	#rating .rating-item .rating-item-inner .rating-info .preview {
+#rating .rating-item {
+width: 48.9%;
+padding: 8px;
+background-color: #FFF;
+}
+
+#rating .rating-item .rating-item-inner .rating-info .preview {
 width: 28px;
 height: 24px;
 line-height: 24px;
 margin: 9px auto;
+background-color: #FFF;
 }
 #rating .rating-item .rating-item-inner .rating-info {
+background-color: #FFF;
 padding: 7px 0 0;
 }
 }
