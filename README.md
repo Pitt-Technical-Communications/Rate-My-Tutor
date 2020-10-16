@@ -4,7 +4,7 @@ October 12, 2020
 
 # Rate-My-Tutor
 
-Group member:
+Group members:
 * Dan Quiroga
 * Emma Akbari
 * Bader Majeed
@@ -20,5 +20,3 @@ College can be a stressful time when it comes to working towards your goals or g
 This is important because getting the help one needs in their education is crucial to academic success. Any added efficiency to this effort is a must for students in today's colleges.
 
 This will solve this problem by first having tutors sign up for the database and then grouping tutors by the college they attend as well as the classes they wish to tutor. Similar to rate my professor students can give tutors scores and they will receive scores from the tutors own class grades.
-
-
