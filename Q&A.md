@@ -22,4 +22,4 @@ A: Tutors are able to teach students through online video calls. Despite not bei
 
 Q: What if my schedule is not consistent week after week, can I guarantee I am getting my money's worth if I have to miss sessions?
 
-A: Flexible schedules are a common attribute that many tutors advertise, all you have to do is find a tutor that matches what you need as a student.
+A: Flexible schedules are a common attribute that many tutors advertise, all you have to do is find a tutor that matches what you need as a student. Should your plan be finished without your tutor satisfying their promised number of meetings you will be compensated.
